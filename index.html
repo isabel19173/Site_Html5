@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade: Deselvivimento e publicação de Web Design</title>
+    <link rel="stylesheet" href="tem.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Questionário de Web Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#design">Design</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#js">JavaScript</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="design">
+            <h2>Web Design </h2>
+            
+            <article>
+                <h3>1. O que é Web Design e qual sua relação com Front-End?</h3>
+            <p>Web Design é o planejamento visual de interfaces digitais, focado em estética e experiência do usuário, utilizando ferramentas como Figma ou Adobe XD.Enquanto o Front-End é o desenvolvimento da parte visual e interativa usando HTML, CSS e JavaScript.
+               A relação do Web Design com Front-End é traduz o design criado pelo Web Designer em código funcional.</p>
+            </article>
+
+            <article>
+                <h3>2. Cite três princípios de design que melhoram a experiência do usuário:</h3>
+                <ol>
+                   <li>Hierarquia visual;</li>
+                   <li>Contraste e alinhamento;</li>
+                   <li>Consistência e acessibilidade.</li> 
+                </ol>
+            </article>
+
+            <article>
+                <h3>3. Qual a diferença entre Wireframe e Protótipo?</h3>
+                <ul>
+                <li><strong>Wireframe:</strong> Esboço estrutural simples, focado em layout e funcionalidade, sem elementos visuais finais.</li>
+                <li><strong>Protótipo:</strong> Versão interativa avançada que simula a experiência real do usuário com cliques e transições.</li>
+            </ul>
+            </article>
+
+            <article>
+                <h3>4. Liste três ferramentas usadas para criar protótipos:</h3>
+                <ol>
+                   <li>Figma;</li>
+                   <li>Adobe XD;</li>
+                   <li>Marvel App.</li> 
+                </ol>
+            </article>
+            
+            </section>
+
+        <section id="html">
+            <h2>HTML5 e Semântica</h2>
+            <article>
+                <h3>5. Explique a função da tag &lt;header&gt; e dê um exemplo de uso.</h3>
+                <p>A tag &lt;header&gt; representa o cabeçalho de uma página ou seção.
+                    Geralmente contém logo, menu, título ou informações introdutórias.</p>
+                <pre><code class="codigo"> 
+                    &lt;header&gt;
+                    &lt;h1&gt;Título&lt;/h1&gt;
+                    &lt;nav&gt;
+                    &lt;href="#"&gt;Home&lt;/a&gt;
+                    &lt;a href="#"&gt;Contato&lt;/a&gt;
+                    &lt;/nav&gt;
+                    &lt;/header&gt;
+                </code></pre>
+            </article>
+
+            <article>
+                <h3>6. Qual a diferença entre uma tag em bloco e uma tag inline?</h3>
+                <ul>
+                    <li><strong>Bloco:</strong> Ocupam toda a largura disponível (&lt;div&gt;, &lt;p&gt;, &lt;h1&gt;).
+                    <li><strong>Inline:</strong> Ocupam apenas o espaço do conteúdo (&lt;span&gt;,&lt;a&gt;, &lt;strong&gt;).</li> 
+                    <li><strong>Importante:</strong> Nunca use elementos em bloco dentro de inline.</li>
+                </ul>
+            </article>
+
+            </section>
+            
+            <section id="css">
+                <h2>CSS </h2>
+            <article>
+                <h3>7. Como aplicar CSS externo em um documento HTML?</h3>
+                <p>
+                    O CSS externo é feito em um arquivo separado com extensão .js (o texto original menciona .js no contexto de scripts, mas para CSS o correto seria .css conforme inferido pelo contexto de "folhas de estilo" e o exemplo de código) ou .css. Ele é incluído no HTML através da tag &lt;link&gt;:
+                <pre><code class="codigo">
+                &lt;link rel="stylesheet" href="style.css" &gt;</code></pre> 
+                </p>
+            </article>
+
+            <article>
+                <h3>8. Cite três propriedades CSS comuns e sua função.</h3>
+                <ul>
+                    <li><code>color:</code> Define a cor do texto.</li>
+                    <li><code>background-color:</code> Define a cor de fundo.</li>
+                    <li><code>font-size</code> Define o tamanho da fonte. (Outras opções incluem margin e padding).</li>
+                </ul>
+            </article>
+            </section>
+
+            <section id="js">
+                <h2>JavaScript</h2>
+                <article>
+                <h3>9. O que é DOM e como o JavaScript interage com ele?</h3>
+                <p>DOM <em>(Document Object Model)</em> é uma representação do HTML como uma <strong>árvore de objetos</strong> que o JavaScript pode acessar e modificar.<br>Com isso o JS pode:</p>
+                <ul>
+                    <li>alterar textos,</li>
+                    <li>mudar cores,</li>
+                    <li>criar elementos,</li>
+                    <li>reagir a eventos (cliques, digitação).</li>
+                </ul>
+            </article> 
+
+                <article>
+                    <h3>10. Escreva um exemplo simples de código JavaScript que exibe uma mensagem no console.</h3>
+                    <pre><code class="codigo">
+                        let mensagem = "Olá, mundo!"
+                        console.log(mensagem)
+                    </code></pre>
+                </article>
+            </section>       
+    </main>
+    <footer>
+        <p>Desenvolvido pela aluna Isabelle  Cristine Kanzler</p>
+    </footer>
+
+</body>
+</html>
